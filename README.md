@@ -31,6 +31,10 @@ If you wanna hack on the repo for some reason, first clone it, then run tests:
 
     $ go test
 
+You can also run benchmarks with:
+
+    $ go test -bench .
+
 That's all.
 
 ## Contributing
