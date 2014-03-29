@@ -3,9 +3,12 @@
 /*
 Unid is a small and efficient package that generates timestamp based
 identifiers with extra uniqueness ensure. The algorithm is pretty simple:
-generate a unix nano timestamp, multiply it by 100 and add sequential,
-atomically generated number from range 0-99. This way we have time based
-and highly unique identfier in our hands.
+
+1. Generate a unix nano timestamp,
+2. Multiply this timestamp by 100,
+3. Add sequential atomically generated number from range 0-99.
+
+This simple way we have time based and highly unique identfier in our hands.
 */
 package unid
 
