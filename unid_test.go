@@ -1,6 +1,7 @@
 package unid
 
 import (
+	"fmt"
 	"sync"
 	"testing"
 )
@@ -70,4 +71,9 @@ func BenchmarkUnidGeneration(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		Unid()
 	}
+}
+
+func ExampleUnid() {
+	u := Unid()
+	fmt.Printf("Your unique id: %d\n", u)
 }
