@@ -2,6 +2,8 @@
 
 **Highly unique, timestamp based identifiers generator for Golang.**
 
+[![wercker status](https://app.wercker.com/status/9ed51fe7081392603a3835b9f732ce51/s/ "wercker status")](https://app.wercker.com/project/bykey/9ed51fe7081392603a3835b9f732ce51)
+
 Unid is a small and efficient package that generates timestamp based
 identifiers with extra uniqueness ensure. The algorithm is pretty simple:
 
